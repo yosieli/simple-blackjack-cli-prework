@@ -23,6 +23,7 @@ end
 
 def get_user_input
   # code #get_user_input here
+  user_input=
   "h", "s", "exit"=gets.chomp
   
 end
