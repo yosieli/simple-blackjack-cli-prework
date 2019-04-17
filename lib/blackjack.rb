@@ -38,11 +38,8 @@ def initial_round
    card_one = deal_card
   card_two = deal_card
   sum = card_one + card_two
-  display_card_total(sum) #once you have figured out the sum of your two cards, you can pass the total in as an argumnt so your phrase is displayed.
-  return card_total
-  deal_card
- sum=rand(1...11) +rand(1...11)
   display_card_total(sum)
+  return sum
 end
 
 def hit?
