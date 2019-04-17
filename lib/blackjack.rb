@@ -5,8 +5,8 @@ end
 
 def deal_card
   # code #deal_card 
-  r = Random.new
-r.rand(1...11)
+  #r = Random.new
+rand(1...11)
 end
 
 
