@@ -35,9 +35,9 @@ end
 
 def initial_round
   # code #initial_round here
-  2.times do
- deal_card
- end
+  deal_card
+  deal_card
+  return 
 end
 
 def hit?
