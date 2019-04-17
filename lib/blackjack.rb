@@ -35,9 +35,7 @@ end
 
 def initial_round(initial_card,)
   # code #initial_round here
-  2.times do
-    puts #{initial_card}
-  end
+ 
 end
 
 def hit?
